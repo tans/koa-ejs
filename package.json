@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "debug": "^2.6.1",
-    "ejs": "^2.6.1",
+    "ejs": "git+https://github.com/tans/ejs.git",
     "mz": "^2.6.0"
   },
   "engine": {
