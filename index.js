@@ -84,7 +84,7 @@ exports = module.exports = function (app, settings) {
    */
   async function render(view, options) {
     view += settings.viewExt;
-    const viewPath = path.join(settings.root, view);
+    const viewPath = path.join(options.root || settings.root, view);
     debug(`render: ${viewPath}`);
     // get from cache
     if (settings.cache && cache[viewPath]) {
