@@ -99,6 +99,8 @@ exports = module.exports = function (app, settings) {
       compileDebug: settings.debug && settings.compileDebug,
       debug: settings.debug,
       delimiter: settings.delimiter,
+      openDelimiter: settings.openDelimiter,
+      closeDelimiter: settings.closeDelimiter,
       cache: settings.cache,
       async: settings.async,
       outputFunctionName: settings.outputFunctionName
