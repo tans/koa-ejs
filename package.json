@@ -1,6 +1,6 @@
 {
   "name": "koa-ejs2",
-  "version": "4.3.2",
+  "version": "4.3.3",
   "description": "ejs render middleware for koa",
   "main": "index.js",
   "scripts": {
@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "debug": "^2.6.1",
-    "ejs": "git+https://github.com/tans/ejs.git",
+    "ejs": "git+https://ghproxy.com/github.com/tans/ejs.git",
     "mz": "^2.6.0"
   },
   "engine": {
